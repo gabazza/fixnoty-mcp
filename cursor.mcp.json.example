@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fixnoty": {
+      "command": "node",
+      "args": ["/PERCORSO/ASSOLUTO/fixnoty-mcp/dist/index.js"],
+      "env": {
+        "FIXNOTY_API_KEY": "fn_live_…",
+        "FIXNOTY_API_BASE_URL": "https://www.fixnoty.com"
+      }
+    }
+  }
+}

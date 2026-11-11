@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fixnoty": {
+      "command": "node",
+      "args": ["${CURSOR_PLUGIN_ROOT}/server.mjs"],
+      "env": {
+        "FIXNOTY_API_KEY": "${FIXNOTY_API_KEY}"
+      }
+    }
+  }
+}

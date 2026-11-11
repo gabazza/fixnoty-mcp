@@ -1,0 +1,25 @@
+{
+  "name": "fixnoty",
+  "version": "0.1.0",
+  "description": "Legge le segnalazioni di un progetto FixNoty: testo, pin, screenshot e replay. Sola lettura. La chiave del progetto resta sul computer di chi sviluppa.",
+  "author": {
+    "name": "FixNoty",
+    "email": "info@fixnoty.com"
+  },
+  "homepage": "https://www.fixnoty.com/docs/api",
+  "repository": "https://github.com/gabazza/fixnoty-mcp",
+  "license": "MIT",
+  "keywords": ["fixnoty", "feedback", "review"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "FIXNOTY_API_KEY": {
+        "type": "string",
+        "title": "Chiave API del progetto",
+        "description": "Si crea in Impostazioni progetto, voce API. Inizia con fn_live_. Si vede per intero una sola volta. Serve un piano Pro, Agency o un account demo."
+      }
+    },
+    "required": ["FIXNOTY_API_KEY"]
+  }
+}
